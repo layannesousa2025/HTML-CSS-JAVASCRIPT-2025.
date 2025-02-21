@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    /*margem do site*/
+    padding: 0;
+    /*espasamento interno do site*/
+}
+
+body {
+    background-color: #87CEFA
+}
+
+header {
+    background-color: #708090;
+    /* mundadndo a cor do menu do meu site*/
+    padding: 10px 20px;
+    /* espacamento interno a esquera do menu menu*/
+}
+
+header img {
+    width: 100px;
+    /* alterando a lagura da minha imagem*/
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    /* tiro de coluna e passo para linha*/
+    justify-content: center;
+    /*centralizar o centro do menu*/
+    list-style: none;
+    /*tira os macadores da lista não ordenadas*/
+}
+
+header nav ul li {
+    margin: 15px;
+    /* altera o tipo de cor do menu*/
+}
+
+header nav ul li a {
+    color: white;
+    /* muda a cor da letras*/
+    text-decoration: none;
+    /* Tira a linha do texto */
+    font-weight: bold;
+    /* deixa a letra do menu negrito */
+    padding: 5px 10px;
+    /* espaçamento entre menu*/
+}
+
+a:hover{
+     background-color: rgb(85, 129, 224);
+     color: rgb(247, 244, 244);
+    /* altera a cor da letra quando o mouse passa sobre o menu*/
+    border-radius: 10px;
+    /* arredonda as bordas do menu*/
+}
+
+section{
+    padding: 60px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 100px;
+}
+
+#home{
+    background-color: #48D1CC;
+    :hover{
+        color: rgb(247, 244, 244);
+    }
+
+   
+    
+}
+
+#Sobre{
+    background-color: #BA55D3 ;
+    :hover{
+        color: rgb(247, 244, 244);
+    }
+}
+#Serviços{
+    background-color: 	#FFB6C1 ;
+    :hover{
+        color: rgb(247, 244, 244);
+    }
+}
+
+#Contato{
+    background-color: #FF1493;
+    :hover{
+        color: rgb(247, 244, 244);
+    }
+}
+
