@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(236, 152, 152);
+    color: white;
+    text-align: center;
+}
+
+label{
+    display: block;
+    /*colocar todo formulario um em baixo do outro*/
+    margin-bottom: 3px;
+    /*espaçamento entre linhas*/
+    font-weight: bold;
+    /*colocar a cor da letra em netrito*/
+}
+
+
+form {
+    max-width: 400px;
+    background-color: rgb(201, 199, 195);
+    padding: 40px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+input{
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+button{
+    color: white;
+    width: 20%;
+    border-radius: 10px;
+    background-color: rgb(231, 63, 63);
+    padding: 10px;
+}

@@ -1,0 +1,25 @@
+body{
+    color: rgb(31, 29, 29);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 300px;
+}
+p{
+   color: rgb(209, 107, 107);
+   font-size: 30px;
+}
+button{
+    width: 20%;
+    /*tamanhao do butao*/
+    height: 30px;
+    /*lagura*/
+    border-radius: 8px;
+    /*as bordas redondas*/
+    border:none;
+    /*serve para tira as bordas do butao*/
+    background-color: rgb(197, 219, 69);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    /*passa o mouse */
+}

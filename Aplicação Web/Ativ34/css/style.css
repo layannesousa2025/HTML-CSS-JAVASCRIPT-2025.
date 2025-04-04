@@ -1,0 +1,46 @@
+body,html{
+    background-color: #e7eea8;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+form{
+   width: 80%;
+   background-color: rgb(201, 228, 140);
+   padding: 40px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   border-radius: 15px;
+    
+}
+
+input{
+    margin: 15px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+ 
+button{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(142, 235, 178, 0.877);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+
+    
+}
+
+
+

@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(144, 208, 233);
+    color: azure;
+    text-align: center;
+   
+    
+}
+
+
+input {
+  background-color: rgb(243, 240, 240);
+  border-radius: 50px;
+  width: 25%;
+  padding: 15px;
+  
+  
+}
+
+
+
+
+button {
+    background-color: #527e19;
+    /* Cor de fundo */
+    color: white;
+    /* Cor do texto */
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinhamento do texto */
+    text-decoration: none;
+    /* Sem sublinhado */
+    display: inline-block;
+    /* Para que o botão se comporte como um bloco */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    margin: 7px 2px;
+    /* Margem */
+    cursor: pointer;
+    /* Cursor de ponteiro ao passar o mouse */
+    border: none;
+    /* Sem borda */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    transition: background-color 0.3s;
+    /* Transição suave */
+    
+    
+}
+
+div {
+    font-size: 20px;
+}

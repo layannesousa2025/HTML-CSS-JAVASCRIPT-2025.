@@ -1,0 +1,17 @@
+body{
+  background-color: rgb(159, 159, 230);
+  text-align: center;
+
+}
+h1{
+  color: aliceblue;
+  font-size: 40px;
+  
+}
+
+img{
+  width: 10% ;
+  height: auto;
+  cursor: pointer;
+  padding: 200px;
+}

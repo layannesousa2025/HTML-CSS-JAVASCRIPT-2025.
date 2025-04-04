@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculo de dois números</title>
+</head>
+
+<body>
+    <h1> calculo de dois numeros</h1>
+    <p>clique no botao para calcular os numeros</p>
+    <button onclick="calcular()">Clique Aqui</button>
+
+    <script>
+        function calcular(){
+            let numero1 = window.prompt('Digiter o primeiro Numero: ')
+            let numero2 = window.prompt('Digiter o segundo Numero: ')
+
+            numero1 = parseFloat(numero1);
+            numero2 = parseFloat(numero2);
+
+            let resultado = numero1 + numero2;
+
+            alert('A Soma dos dois numero é: '+resultado)
+        }
+    </script>
+</body>
+
+</html>
