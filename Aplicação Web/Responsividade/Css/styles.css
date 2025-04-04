@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    /*munda a cor do fundo*/
+    color: white;
+    /*munda a cor da letra*/
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: yellow;
+        /*munda a cor do fundo*/
+        color: black;
+        /*munda a cor da letra*/
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: blue;
+        /*munda a cor do fundo*/
+        color: white;
+        /*munda a cor da letra*/
+
+
+    }
+}
