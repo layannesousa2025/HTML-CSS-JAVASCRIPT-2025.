@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    /*margin colocar espamento para fora*/
+    padding: 0;
+    /*separa o conteudo entre as caixas e o conteudo*/
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*tipo da fonte*/
+    padding: 20px;
+    /*espaçamento no corpod apagina*/
+    background-color: rgb(219, 198, 170);
+    /*alteri a cor da pagina*/
+}
+
+form {
+    max-width: 400px;
+    /*largura maxima do meu formulario*/
+    background-color: rgb(202, 170, 143);
+    /* cor de fundo do formulario*/
+    padding: 80px;
+    /*espacamento dentro do formulario*/
+    border-radius: 10px;
+    /*borda do formulario redondato*/
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    /*centralizei o titulo do formulario*/
+    margin-bottom: 20px;
+    /*espaçamento entre o titulo e a label*/
+    color: aliceblue;
+
+}
+
+label {
+    display: block;
+    /*colocar todo formulario um em baixo do outro*/
+    margin-bottom: 3px;
+    /*espaçamento entre linhas*/
+    font-weight: bold;
+    /*colocar a cor da letra em netrito*/
+}
+
+input {
+    width: 100%;
+    /*largura do input*/
+    padding: 8px;
+    /*espamento no input*/
+    border-radius: 8px;
+    /*arrendondar borda do input*/
+    border: 5px solid#cac7c755;
+    /*cor da borda do input*/
+    color: rgb(110, 95, 122);
+    /*cor da letra do input*/
+    font-size: 18px;
+    /*tamanho da letra do input*/
+    font-weight: bold;
+    /*letra do input em negrito*/
+    margin-bottom: 10px;
+    /*espaçamento entre linhas*/
+}
+
+button {
+    width: 40%;
+    /*largura do botão*/
+    padding: 10px;
+    /*espacamento no botão*/
+    border-radius: 8px;
+    /*arredondar borda do botão*/
+    font-size: 16px;
+    /*tamanho da letra do botão*/
+    font-weight: bold;
+    /*letra do botão em negrito*/
+    cursor: pointer;
+    /*altera o cursor do mouse*/
+
+}
+
+button[type="reset"] {
+    background-color: rgb(233, 91, 91);
+    color: rgb(233, 238, 243);
+
+}
+
+button[type="submit"] {
+    background-color: rgb(145, 226, 163);
+    color: aliceblue;
+
+}
+
+#botao-principal {
+    width: 100%;
+    /*largura da div 100%*/
+    display: flex;
+    /*alterie a minha div de block para linha*/
+    justify-content: center;
+    /*centralizar tudo na div*/
+    padding: 10px;
+    /*espaçamento dentro da div*/
+    gap: 15px;
+    /*espamento entre os botões*/
+}
+
